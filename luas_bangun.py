@@ -13,3 +13,10 @@ def luas_persegi_panjang() :
     print("Luas persegi panjang adalah: ", luas)
 
 luas_persegi_panjang()
+
+def luas_persegi() :
+    s = int(input("masukkan jumlah sisi persegi: "))
+    luas = s*s
+    print("Luas persegi adalah: ", luas)
+
+luas_persegi()
